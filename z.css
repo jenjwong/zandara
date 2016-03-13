@@ -1,0 +1,73 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.95;
+    color: green;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b32206;
+  opacity: 1;
+}
+
+li {
+    list-style: none;
+    color: black;
+
+}
+
+
+
+.faceText {
+  z-index: 1;
+  padding-top: 7%;
+  font-weight: 900;
+  font-size: 7em;
+  position: absolute;
+  color: red;
+}
+
+
+
+/*hard time making bg full screen
+  not sure why it worked*/
+
+video {
+  z-index: 0;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+
+.opaqueBG {
+  background:rgba(255,255,255, 0.4);
+}
+
+.allignRight {
+  text-align: right;
+}
+
+
+
+.highlighted {
+  left: 40px;);
+}
+
+
+
+
+
+.email {
+}
